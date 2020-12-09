@@ -33,6 +33,7 @@ Follow [Docksal environment setup instructions](https://docs.docksal.io/getting-
     ```
     fin init
     ```
+   A `composer.lock` file will be generated. This file should be committed to your repository.
 
 3. Point your browser to
 
