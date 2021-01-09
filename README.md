@@ -22,7 +22,7 @@ Follow [Docksal environment setup instructions](https://docs.docksal.io/getting-
 1. Clone this repo into your Projects directory
 
     ```
-    git clone https://github.com/docksal/boilerplate-drupal9.git drupal9
+    git clone https://github.com/docksal/boilerplate-drupal9-composer.git drupal9
     cd drupal9
     ```
 
