@@ -1,0 +1,5 @@
+# Schema for the configuration files of the rpg-chars theme.
+
+rpg_chars.settings:
+  type: theme_settings
+  label: 'rpg-chars settings'

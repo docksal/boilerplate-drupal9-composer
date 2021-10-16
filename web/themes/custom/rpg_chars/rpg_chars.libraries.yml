@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/rpg_chars.style.css: {}
+  js:
+    assets/js/rpg_chars.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

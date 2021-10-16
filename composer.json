@@ -16,9 +16,13 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/adminimal_theme": "^1.6",
+        "drupal/bootstrap5": "^1.1",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
+        "drupal/pathauto": "^1.8",
+        "drupal/radix": "^4.10",
         "drush/drush": "^10.2"
     },
     "conflict": {
