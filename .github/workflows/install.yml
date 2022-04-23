@@ -12,9 +12,6 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Install Docksal
-        env:
-          DOCKSAL_VERSION: ${{ steps.use_branch.outputs.branch }}
-        # This installs Docksal using the passed DOCKSAL_VERSION value
         run: curl -fsSL https://get.docksal.io | bash
       - name: fin sysinfo
         run: fin sysinfo
