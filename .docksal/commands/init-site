@@ -63,14 +63,8 @@ composer_install ()
 # Initialize local settings files
 init_settings ()
 {
-	# drupal-composer/drupal-project creates settings.php from default.settings.php.
-	# Since we supply our own settings.php below, we have to drop the default file first.
-	# TODO: Uncomment the local config (settings.local.php) include section in settings.php inline instead.
-	# That'a the only change we need in the stock settings.php
-	rm -f "${SITEDIR_PATH}/settings.php"
-
-	copy_settings_file "${PROJECT_ROOT}/.docksal/settings/settings.php" "${SITEDIR_PATH}/settings.php"
-	copy_settings_file "${PROJECT_ROOT}/.docksal/settings/settings.local.php" "${SITEDIR_PATH}/settings.local.php"
+	# Copy from settings templates
+	copy_settings_file "${SITEDIR_PATH}/default.settings.local.php" "${SITEDIR_PATH}/settings.local.php"
 }
 
 # Fix file/folder permissions
